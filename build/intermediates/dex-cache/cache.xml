@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ekir/AndroidStudioProjects/myproject/app/libs/cordova-2.9.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f19d37430dcddf1b0cd64801fc364f74c07ac0d2">
+        <dex dex="/home/ekir/AndroidStudioProjects/myproject/app/build/intermediates/pre-dexed/debug/cordova-2.9.1-51aca29de9f21eff961af6bbe1212f833257039e.jar" />
+    </item>
+
+</items>

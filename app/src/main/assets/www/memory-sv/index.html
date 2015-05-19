@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Memory game</title>
+
+    <meta charset="utf-8" />
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body background="img/bg.jpg" >
+
+
+
+    <div id="container">
+        <div id="progressbardiv">
+              <div id="progressbar"></div>
+        </div>
+
+        <form id="tablescore" name="tablescore" action="#">
+            <div>
+                <label><span>Score</span></label>
+                <input type="text" value="0" id="score" readonly="readonly" />
+                <input type="button" value="Spela" />
+            </div>
+        </form>
+        
+        <canvas id="canvas" width="450" height="550">
+            <span class="fallback">Your browser sucks (doesn't support HTML5 at all. Get new one!).</span>
+        </canvas>
+        
+        <div id="msg"></div>
+    </div>
+    
+    <script src="js/jquery-1.6.2.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script src="js/memgame.js"></script>
+
+</body>
+</html>
